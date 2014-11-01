@@ -12,5 +12,6 @@
   "engines": {
     "node":"0.10.32",
     "npm":"1.4.28"
-  }
+  },
+  "description": "node api installed via dokku"
 }

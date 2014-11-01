@@ -1,5 +1,5 @@
 {
-  "name": "beerlocker",
+  "name": "musclemetrics",
   "main": "server.js",
   "dependencies": {
     "express": "^4.1.1",

@@ -8,5 +8,9 @@
     "bcrypt-nodejs": "0.0.3",
     "passport": "^0.2.0",
     "passport-http": "^0.2.2"
+  },
+  "engines": {
+    "node":"0.10.32",
+    "npm":"1.4.28"
   }
 }

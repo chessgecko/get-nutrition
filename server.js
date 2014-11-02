@@ -25,7 +25,7 @@ app.use(passport.initialize());
 // Add headers
 app.use(function (req, res, next) {
   //console.log("here");
-  res.header("Access-Control-Allow-Origin", "http://localhost:9000");
+  res.header("Access-Control-Allow-Origin", "*");
   res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
   res.header("Access-Control-Allow-Headers", "X-Requested-With, Content-Type, Authorization");
 

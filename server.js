@@ -51,8 +51,8 @@ router.route('/').get(function(req,res){
 	res.render("pages/index");
 });
 
-router.route('/food')
-.post(foodController.getFoods);
+router.route('/food/:foodArray')
+.get(foodController.getFoods);
 
 // Create endpoint handlers for /beers/:beer_id
 router.route('/routine/:routine_id')
@@ -80,7 +80,7 @@ router.route('/workout/addexercise/:workout_id');
 
 // Register all our routes with /api
 app.use('/', router);
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 // Start the server
 app.listen(port);
 console.log('the magic happens on port ' + port);

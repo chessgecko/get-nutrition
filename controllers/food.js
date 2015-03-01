@@ -102,7 +102,7 @@ var parseWolframResults = function(res){
 // Creatde endpoint /api/routine for GET
 exports.getFoods = function(req, res) {
   // Use the Beer model to find all beer
-  var foods = req.body.foodArray + "";
+  var foods = req.params.foodArray + "";
   var foodArray = foods.split(",");
   var farray = [];
   for(var i = 0; i< foodArray.length; i++){
